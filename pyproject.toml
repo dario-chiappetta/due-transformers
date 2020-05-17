@@ -6,9 +6,9 @@ authors = ["Dario <dario.chi@inventati.org>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-due = {path = "../due-repo"}
 transformers = "^2.9.1"
 torch = "^1.5.0"
+due = {git = "https://github.com/dario-chiappetta/Due.git"}
 
 [tool.poetry.dev-dependencies]
 notebook = "^6.0.3"
